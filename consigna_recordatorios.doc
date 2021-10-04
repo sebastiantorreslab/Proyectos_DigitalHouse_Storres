@@ -1,0 +1,44 @@
+En este archivo encontraremos los comandos más utilizados para que inicies usando Git y GotHub como un profesional
+
+Empezando en Git -
+
+Git es una herramienta de comandos creada para realizar tareas de software de forma más simplificada y sencilla 
+
+Git funciona a partir de comandos, los cuales son instrucciones que se le dan al sistema de forma directa para que realice una acción en concreto 
+
+Primeros Comandos
+
+git init  // inicia un repositorio local de git en la carpeta donde estemos ubicados. Se crea la carpeta oculta ./Git
+
+gid add .  // Agrega todos los archivos de la ubicación en el repositorio local, es decir en la carpeta ./Git
+
+git commit -m "Nombre commit" // genera un commit para guardar una versión del documento - paso necesario para agregarlos a repositorio remoto. 
+
+git log // muestra los commits que se han realizado
+
+git status // permite conocer el estado de los archivos en git e indica si los archivos están listos para hacer commit o no. 
+
+git clone "url del repositorio" // víncula un repositorio remoto en github con un repositorio local
+
+git push origin // carga o envia los archivos de un repositorio local vínculado con un repositorio remoto. 
+
+git pull origin "nombre rama" // actualiza los cambios realizados en un repsitorio remoto, en un repositorio local. 
+
+touch // crear un archivo nuevo
+
+mkdir // crear una carpeta o directorio nuevo 
+
+rm // eliminar un archivo 
+
+git remote remove  // eliminar un repositorio remoto
+
+mv // cambiar el nombre o ubicación de un archivo
+
+git branch "nombre rama" // crea una nueva rama en github
+
+git checkout // moverse entre las ramas
+
+git merge // fusionar ramas 
+
+
+ 
